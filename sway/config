@@ -14,7 +14,7 @@ output * bg ~/.config/backgrounds/march7.jpg fill
 
 # Set the initial keyboard layout
 input * {
-    xkb_layout "fr,us"
+    xkb_layout "us,ru"
     xkb_options "grp:alt_shift_toggle"
 }
 # For configuration Laptop Right, Monitor Left
