@@ -46,7 +46,6 @@ function install {
 # Install dependencies using the install function
 # Make an array of all the dependencies (swaylock-effects rofi-lbonn-wayland waybar-git neofetch cava foot hyprland-git mpd mpc sweet-cursor-theme-git ttf-font-awesome nerd-fonts hyprpicker pipewire wireplumber fish)
 dependencies=(
-    sway
     fastfetch
     cava-git
     foot
@@ -82,16 +81,16 @@ dependencies=(
 )
 
 important_dependencies=(
-    rofi-wayland
-    hyprland-git
+    sway
+    swayfx
+    swaylock
+    swaylock-effects
     waybar
-    hyprlock-git
-    ags-hyprpanel-git
+    rofi-lbonn-wayland
 )
 
 # Highly probable that those packages are already installed, but just in case
 conflicting_packages=(
-    rofi
     hyprland
     aylurs-gtk-shell
 )
